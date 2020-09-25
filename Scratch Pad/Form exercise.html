@@ -30,7 +30,7 @@
     <label for="email"> Email: </label>
     <input type="email" name="email" placeholder="Email" required/>
     <label for="password"> Password: </label>
-    <input type="password" name="password" placeholder="password" minlength="5" maxlength="10" required/>
+    <input type="password" name="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 Characters"/>
 </div>
 
 <div>
@@ -45,7 +45,16 @@
         <option value="day">Year</option>
     </select>
 </div> 
-<input type="submit"/>   
+
+<div>
+    <label for="I Agree">I agree to the terms and conditions:</label>
+    <input type="checkbox" name="I Agree" id="Agreed">
+</div>
+
+<div>
+    <input type="submit"/>   
+</div>
+
 </form>
 
 </body>

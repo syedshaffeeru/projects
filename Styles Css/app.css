@@ -83,6 +83,7 @@ input:checked{
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 #special::first-letter{
+    color:green;
     font-size: 100;
 }
 
